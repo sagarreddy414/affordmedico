@@ -1,0 +1,242 @@
+ <!DOCTYPE html>
+<html>
+<title>AFFORD MEDICO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+.container {
+  position: center;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+}
+button {
+  background-color: #3498DB;
+  color: white;
+  padding: 14px 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("fifth.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+}
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+</style>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">AFFORD MEDICO</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="donorlogin.html" target="_blank" class="w3-bar-item w3-button">DONATE NOW</a>
+ 
+      <a href="#pricing" class="w3-bar-item w3-button">CAUSES</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+      <a href="#login" class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><i class="fa fa-user"></i> LOGIN</a>	
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" method="post">
+  
+
+    <div class="container">
+	<button type="submit" formtarget="_blank" formaction="ngologin.html">NGO LOGIN</button>
+      <button type="submit" formtarget="_blank" formaction="donorlogin.html">DONATOR LOGIN</button>
+      <button type="submit" formtarget="_blank" formaction="ngosignup.html">NGO REGISTER</button>
+      <button type="submit" formtarget="_blank" formaction="donorreg.html">DONATOR REGISTER</button>
+    </div>
+	
+</div>
+</form>
+
+	</div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:45px">
+    <span class="w3-jumbo w3-hide-small">Start something that matters</span><br><br>
+    <span class="w3-large">Stop wasting medcines and start donating..</span>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT AFFORD MEDICO</h3>
+  <p>Afford Medico helps NGOs to reach out to thousands of prospective donors with their wonderful work and beautiful causes. This unique platform empowers small and medium sized NGOs create their digital presence.
+By providing ratings from the donors who have made a donation to their favourite cause and the loved charity, AffordMedico provides the unique platform where a donor can give with confidence.</p>
+    </p>
+<p>Afford Medico believes in the power of empowerment through correct information.
+
+We let our donors evaluate and rate the NGOs based upon their experience. Every donor is given the choice to rate their experience with the NGO, when completing their donation. These ratings act as the guidelines for other prospective donors, when they are considering a donation. 
+
+Every Indian charity is welcome to register on Donatio and use this platform to reach out to the donors across the country. Instead of we are deciding, whether the given NGO is credible or not, we let the donor decide based upon their giving experience.
+</p>
+
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>WHAT PEOPLE THINK?</h3>
+      <p>It’s simple, really. 50 million people in the United States skip medication due to cost. Medication destruction costs $1-$3 per pound. And 70% of waterways are contaminated with pharmaceutical runoff. Your donations make a real, lasting impact.</p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="first.jpg" width="600" height="500">
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal for full size images on click-->
+<div class="w3-container w3-center w3-dark-grey" style="padding:68px 16px" id="pricing">
+	<img src="pie.png" width="600" height="500">
+	<h2> Mission Critical</h2>
+<p>We strive to keep our administrative costs low so </p><p>donations can go where they matter most, to those we assist.</p>
+
+<h2>Global Impact</h2>
+<p>Take a look at our global work and choose the country</p><p> and program you’d like to be part of.</p>
+
+<h2>Reports & Financials</h2>
+<p>Our project managers and ground teams submit monthly financial</p><p> reports in addition to comprehensive quarterly field reports.</p>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Support.</h3>
+      <p>Afford Medico is just a startup Website which helps to donate medicines 
+	to people who are in need.</p>
+	<p>NGO recieves medicines from donators.</p> 
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="w3-margin-right"></i>NGO RECIEVED</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:60%">60%</div>
+      </div>
+      <p class="w3-wide"><i class="w3-margin-right"></i>DONATIONS MADE</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:65%">65%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Hyderabad,Telangana</i></p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +7660092071</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: affordmedico.am@mail.com</p>
+    <br>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+</body>
+</html>
